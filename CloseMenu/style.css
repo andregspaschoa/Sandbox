@@ -3,11 +3,27 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: 'F&F9Theme', sans-serif;
 }
 
 body {
-  background: #4b2324; /*#001a25;*/
+  background: #272727; /*#001a25;*/
+}
+
+.title {
+  display: block;
+  width: 100%;
+  margin-top: 0px;
+
+}
+
+.fast {
+  margin-top: 26px;
+  justify-content: center !important;
+  text-align: center !important;
+  color: #fff;
+  font-size: 22px;
+  letter-spacing: 4px;  
 }
 
 #toggle {
@@ -16,7 +32,7 @@ body {
   right: 20px;
   width: 60px;
   height: 60px;
-  background: #8a5755;  /*#73424a;     #03a9f4;*/
+  background: #3b3b3b;  /*#73424a;     #03a9f4;*/
   cursor: pointer;
   display: flex;
   justify-content: center;
@@ -57,7 +73,7 @@ body {
 	left: -200px;
 	width: 200px;
 	height: 100vh;
-	background: #8a5755; /* #73424a;  #003147;*/
+	background: #3b3b3b; /* #73424a;  #003147;*/
 	transition: 0.5s;
 }
 
@@ -78,13 +94,18 @@ body {
 }
 
 #sidebar ul li:hover {
-	background: #523332;   /* #03a9f4*/
+	background: #1f1f1f;   /* #03a9f4*/
 }
 
 #sidebar ul li a {
 	color: #fff;
 	text-decoration: none;
-	font-size: 1.5em;
+	font-size: 1 em;
 	letter-spacing: 2px;
 }
 
+
+@font-face {
+  font-family: 'F&F9Theme';
+  src: url('assets/Incised901BT-NordItalic.otf');
+} /* format('opentype') */
