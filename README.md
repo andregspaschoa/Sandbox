@@ -1,3 +1,3 @@
 # Sandbox
  
-Test area: apps, ui components, apps, functions, methods & others
+Test area: ui components, apps, functions, methods & others
