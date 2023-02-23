@@ -1,0 +1,14 @@
+#div1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#div2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    background-color: rgb(144, 146, 233);
+}
+
+#div2:hover {
+    color: #000;
+    background-color: #fff;
+}
